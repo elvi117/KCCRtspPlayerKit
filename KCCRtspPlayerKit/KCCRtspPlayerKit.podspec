@@ -24,10 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
 
-  s.homepage     = "http://EXAMPLE/KCCRtspPlayerKit"
+
+  s.homepage     = "http://elo.pl"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -90,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FFMpegDecoder/**/*.{h,m}", "FFMpegiOS/**/*.{h,m,a}"
+  s.source_files  = "KCCRtspPlayerKit/FFMpegDecoder/**/*.{h,m}", "KCCRtspPlayerKit/FFMpegiOS/**/*.{h,m,a}"
 
   # s.public_header_files = "Classes/**/*.h"
 
