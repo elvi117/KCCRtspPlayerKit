@@ -119,9 +119,16 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   #s.libraries = "KCCRtspPlayerKit/FFMpegiOS/lib/libavcodec", "KCCRtspPlayerKit/FFMpegiOS/lib/libavdevice", "KCCRtspPlayerKit/FFMpegiOS/lib/libavfilter", "KCCRtspPlayerKit/FFMpegiOS/lib/libavformat", "KCCRtspPlayerKit/FFMpegiOS/lib/libavutil", "KCCRtspPlayerKit/FFMpegiOS/lib/libswresample", "KCCRtspPlayerKit/FFMpegiOS/lib/libswscale"
-  s.libraries = "avcodec", "avdevice", "avfilter", "avformat", "avutil", "swresample", "swscale"
+  #s.libraries = "avcodec.a", "avdevice.a", "avfilter", "avformat", "avutil", "swresample", "swscale"
   #s.frameworks = "libavcodec", "libavdevice", "libavfilter", "libavformat", "libavutil", "libswresample", "libswscale", "libz", "libbz2", "libiconv" 
 
+  s.subspec 'Core' do |sc|
+    #sc.ios.library = 'z'
+    #sc.frameworks = 'SystemConfiguration', 'QuartzCore', 'CoreText', 'WebKit'
+    #sc.source_files = 'AppboyKit/headers/AppboyKitLibrary/*.h', 'AppboyKit/ABKIdentifierForAdvertisingProvider.m', 'AppboyKit/ABKModalWebViewController.m', 'AppboyKit/ABKNoConnectionLocalization.m'
+    sc.vendored_libraries = "KCCRtspPlayerKit/FFMpegiOS/lib/libavcodec.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavdevice.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavfilter.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavformat.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavutil.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libswresample.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libswscale.a"
+    #sc.weak_framework = 'CoreTelephony', 'Social', 'Accounts', 'AdSupport', 'StoreKit', 'UserNotifications'
+  end
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
