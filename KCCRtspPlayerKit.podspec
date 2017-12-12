@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   #s.libraries = "KCCRtspPlayerKit/FFMpegiOS/lib/libavcodec", "KCCRtspPlayerKit/FFMpegiOS/lib/libavdevice", "KCCRtspPlayerKit/FFMpegiOS/lib/libavfilter", "KCCRtspPlayerKit/FFMpegiOS/lib/libavformat", "KCCRtspPlayerKit/FFMpegiOS/lib/libavutil", "KCCRtspPlayerKit/FFMpegiOS/lib/libswresample", "KCCRtspPlayerKit/FFMpegiOS/lib/libswscale"
-  s.libraries = "libavcodec", "libavdevice", "libavfilter", "libavformat", "libavutil", "libswresample", "libswscale"
+  s.libraries = "avcodec", "avdevice", "avfilter", "avformat", "avutil", "swresample", "swscale"
   #s.frameworks = "libavcodec", "libavdevice", "libavfilter", "libavformat", "libavutil", "libswresample", "libswscale", "libz", "libbz2", "libiconv" 
 
 
