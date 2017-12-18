@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'KCCRtspPlayerKit/**/*'
-  s.vendored_libraries = "FFMpegiOS/lib/libavcodec.a", "FFMpegiOS/lib/libavdevice.a", "FFMpegiOS/lib/libavfilter.a", "FFMpegiOS/lib/libavformat.a", "FFMpegiOS/lib/libavutil.a", "FFMpegiOS/lib/libswresample.a", "FFMpegiOS/lib/libswscale.a"
+  s.vendored_libraries = "KCCRtspPlayerKit/FFMpegiOS/lib/libavcodec.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavdevice.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavfilter.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavformat.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libavutil.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libswresample.a", "KCCRtspPlayerKit/FFMpegiOS/lib/libswscale.a"
   s.libraries = "avcodec", "avdevice", "avfilter", "avformat", "avutil", "swresample", "swscale"
   s.pod_target_xcconfig = {
     # This is needed by all pods that depend on Protobuf:
