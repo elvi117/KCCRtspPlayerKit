@@ -110,12 +110,12 @@
 		B21F8B141FD9456200237A5C /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAB1FD9456100237A5C /* libavdevice.a */; };
 		B21F8B151FD9456200237A5C /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAC1FD9456100237A5C /* libavfilter.a */; };
 		B21F8B161FD9456200237A5C /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAD1FD9456100237A5C /* libavformat.a */; };
-		B21F8B171FD9456200237A5C /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAE1FD9456100237A5C /* libavutil.a */; };
 		B21F8B181FD9456200237A5C /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAF1FD9456100237A5C /* libswresample.a */; };
 		B21F8B191FD9456200237A5C /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AB01FD9456100237A5C /* libswscale.a */; };
 		B21F8B1D1FD9487E00237A5C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8B1C1FD9487E00237A5C /* libz.tbd */; };
 		B21F8B1F1FD9488700237A5C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8B1E1FD9488700237A5C /* libbz2.tbd */; };
 		B21F8B211FD9489000237A5C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8B201FD9489000237A5C /* libiconv.tbd */; };
+		B273D7E51FE7BE6B00D2B221 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F8AAE1FD9456100237A5C /* libavutil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -237,10 +237,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B273D7E51FE7BE6B00D2B221 /* libavutil.a in Frameworks */,
 				B21F8B211FD9489000237A5C /* libiconv.tbd in Frameworks */,
 				B21F8B1F1FD9488700237A5C /* libbz2.tbd in Frameworks */,
 				B21F8B1D1FD9487E00237A5C /* libz.tbd in Frameworks */,
-				B21F8B171FD9456200237A5C /* libavutil.a in Frameworks */,
 				B21F8B191FD9456200237A5C /* libswscale.a in Frameworks */,
 				B21F8B151FD9456200237A5C /* libavfilter.a in Frameworks */,
 				B21F8B141FD9456200237A5C /* libavdevice.a in Frameworks */,
