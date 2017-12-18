@@ -7,6 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <libavcodec.a>
+#import <libavdevice.a>
+#import <libavfilter.a>
+#import <libavformat.a>
+#import <libavutil.a>
+#import <libswresample.a>
+#import <libswscale.a>
 
 //! Project version number for KCCRtspPlayerKit.
 FOUNDATION_EXPORT double KCCRtspPlayerKitVersionNumber;
