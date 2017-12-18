@@ -126,8 +126,8 @@ Pod::Spec.new do |s|
     #sc.ios.library = 'z'
     #sc.frameworks = 'SystemConfiguration', 'QuartzCore', 'CoreText', 'WebKit'
     #sc.source_files = 'AppboyKit/headers/AppboyKitLibrary/*.h', 'AppboyKit/ABKIdentifierForAdvertisingProvider.m', 'AppboyKit/ABKModalWebViewController.m', 'AppboyKit/ABKNoConnectionLocalization.m'
-    s.vendored_libraries = "FFMpegiOS/lib/libavcodec.a", "FFMpegiOS/lib/libavdevice.a", "FFMpegiOS/lib/libavfilter.a", "FFMpegiOS/lib/libavformat.a", "FFMpegiOS/lib/libavutil.a", "FFMpegiOS/lib/libswresample.a", "FFMpegiOS/lib/libswscale.a"
-    s.libraries = "avcodec", "avdevice", "avfilter", "avformat", "avutil", "swresample", "swscale"
+    s.vendored_frameworks = "FFMpegiOS/lib/libavcodec.a", "FFMpegiOS/lib/libavdevice.a", "FFMpegiOS/lib/libavfilter.a", "FFMpegiOS/lib/libavformat.a", "FFMpegiOS/lib/libavutil.a", "FFMpegiOS/lib/libswresample.a", "FFMpegiOS/lib/libswscale.a"
+    s.frameworks = "avcodec", "avdevice", "avfilter", "avformat", "avutil", "swresample", "swscale"
 
     #sc.weak_framework = 'CoreTelephony', 'Social', 'Accounts', 'AdSupport', 'StoreKit', 'UserNotifications'
   
